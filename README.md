@@ -5,7 +5,7 @@ This project is to monitor the arbitrage opportunity of stocks, options, and fut
 ## Main
 - Every 20 seconds we download all the etf futures, options, and stocks index data, then extract them into a .csv file.
 - Data Source: Wind database
-- Financial Thorey: $P+S+D=C+\frac{K}{(1+Rf)^T}$
+- Financial Thorey: $P+S=C+\frac{K}{(1+Rf)^T}+D$
   - if the relationship does not hold, there exists an arbitrage opportunity.
 
 And all the details for calculation, you can see in CalStat.py
